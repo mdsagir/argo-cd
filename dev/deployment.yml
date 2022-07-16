@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: demo-service
-          image: sagiransari/demo-service-v3
+          image: sagiransari/demo-service
           ports:
             - containerPort: 8080
           resources:
